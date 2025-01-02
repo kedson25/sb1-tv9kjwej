@@ -71,7 +71,7 @@ export default function Home() {
     setTeams(uniqueTeams);
 
     if (uniqueTeams.length > 0 && !selectedTeam) {
-      setSelectedTe <boltAction type="file" filePath="src/pages/Home.tsx">      setSelectedTeam(uniqueTeams[0]);
+      setSelectedTeam(uniqueTeams[0]);
     }
   };
 
@@ -212,4 +212,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+            }
